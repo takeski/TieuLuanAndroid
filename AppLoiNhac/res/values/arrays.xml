@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="time_option_arr">
+        <item>Thời gian thực</item>
+        <item>Thời gian còn lại</item>
+    </string-array>
+    
+    <string-array name="date_range_arr">
+        <item>Theo ngày</item>
+        <item>Theo tuần</item>
+        <item>Theo tháng</item>
+        <!--item>Yearly</item-->                
+    </string-array>    
+    
+    <string-array name="val_arr">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>        
+        <item>3</item>
+    </string-array>    
+    
+    <string-array name="spinner1_arr">
+        <item>Mỗi ngày</item>
+        <item>Ngày 1</item>
+        <item>Ngày 2</item>
+        <item>Ngày 3</item>
+        <item>Ngày 4</item>
+        <item>Ngày 5</item>
+        <item>Ngày 6</item>
+        <item>Ngày 7</item>
+        <item>Ngày 8</item>
+        <item>Ngày 9</item>
+        <item>Ngày 10</item>
+        <item>Ngày 11</item>
+        <item>Ngày 12</item>
+        <item>Ngày 13</item>
+        <item>Ngày 14</item>
+        <item>Ngày 15</item>
+        <item>Ngày 16</item>
+        <item>Ngày 17</item>
+        <item>Ngày 18</item>
+        <item>Ngày 19</item>
+        <item>Ngày 20</item>
+        <item>Ngày 21</item>
+        <item>Ngày 22</item>
+        <item>Ngày 23</item>
+        <item>Ngày 24</item>
+        <item>Ngày 25</item>
+        <item>Ngày 26</item>
+        <item>Ngày 27</item>
+        <item>Ngày 28</item>
+        <item>Ngày 29</item>
+        <item>Ngày 30</item>
+        <item>Ngày 31</item>
+        <!--item>Last</item-->
+    </string-array>
+    
+    <string-array name="spinner2_arr">
+        <item>Thứ</item>
+        <item>Chủ Nhật</item>
+        <item>Thứ hai</item>
+        <item>Thứ 3</item>
+        <item>Thứ 4</item>
+        <item>Thứ 5</item>
+        <item>Thứ 6</item>
+        <item>Thứ 7</item>                        
+    </string-array>
+    
+    <string-array name="spinner3_arr">
+        <item>Tháng</item>
+        <item>Tháng 1</item>
+        <item>Tháng 2</item>
+        <item>Tháng 3</item>
+        <item>Tháng 4</item>
+        <item>Tháng 5</item>
+        <item>Tháng 6</item>
+        <item>Tháng 7</item> 
+        <item>Tháng 8</item>
+        <item>Tháng 9</item>
+        <item>Tháng 10</item>
+        <item>Tháng 11</item>
+        <item>Tháng 12</item>                               
+    </string-array>
+    
+    <string-array name="date_format_arr">                
+        <item>yyyy-MM-dd</item>
+        <item>yyyy-M-d</item>        
+        <item>MMMM dd yyyy</item>
+        <item>MM/dd/yyyy</item>
+		<item>dd MMMM yyyy</item>                
+        <item>dd MMM yyyy</item>        
+        <item>d MMM yyyy</item>
+        <item>dd-MM-yyyy</item>
+        <item>dd/MM/yy</item>                
+    </string-array>    
+        
+</resources>

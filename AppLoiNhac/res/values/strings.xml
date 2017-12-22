@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">App Lời Nhắc</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="delete">Xóa</string>
+    <string name="delete_repeating">Xóa lặp</string>
+    <string name="delete_all">Xóa tất cả</string>
+	<string name="nhactoi">Lời Nhắc</string>
+	<string name="batchuong">Bật chuông báo</string>
+	<string name="loinhan">Lời nhắn</string>
+	<string name="data">Không có nhắc nhở nào</string>
+</resources>

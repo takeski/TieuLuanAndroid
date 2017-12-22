@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00C5CD" >
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <EditText
+	        android:id="@+id/msg_et"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:maxLines="2"
+	        android:hint="Lời nhắn" >
+	    </EditText>
+	    
+	    <CheckBox
+	        android:id="@+id/sound_cb"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Bật chuông báo"
+	        android:textColor="#fff" />
+	
+	    <ToggleButton
+	        android:id="@+id/toggleButton1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:background="@drawable/type_selector"
+	        android:onClick="onClick"
+	        android:padding="5dip"
+	        android:textColor="#ffffff"
+	        android:textOff="lặp lại"
+	        android:textOn="không" />
+
+
+	        <ViewSwitcher
+	            android:id="@+id/view_switcher"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="5dip"
+	            android:paddingRight="5dip"
+	            android:paddingTop="10dip" >
+	        
+	        <include layout="@layout/include_onetime" 
+	            android:layout_width="fill_parent" 
+	            android:layout_height="fill_parent" />        
+	        
+	        <include layout="@layout/include_repeating" 
+	            android:layout_width="fill_parent" 
+	            android:layout_height="fill_parent" />
+	        
+	    </ViewSwitcher>
+
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:paddingTop="20dp" >
+
+	        <ImageButton
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@null"
+	            android:onClick="create"
+	            android:src="@drawable/ok" />
+
+			<ImageButton
+			    android:id="@+id/btn_cencel"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="20dp"
+			    android:background="@null"
+			    android:onClick="onClick"
+			    android:src="@drawable/cencel" />
+	        
+	    </LinearLayout>	   
+	
+	</LinearLayout>
+
+</ScrollView>
